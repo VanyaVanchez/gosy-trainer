@@ -9,6 +9,7 @@ const TESTS = [
     { id: 5, title: "Инновации, кризисы, риски, Lean", themes: "Инновации, кризисы, риски, бережливое" },
     { id: 6, title: "Руководитель, команда, власть", themes: "Руководитель, стиль, власть" },
     { id: 7, title: "Коммуникация и управление", themes: "Коммуникация, персонал, управление, формулы" },
+    { id: 8, title: "Новые вопросы", themes: "Доп. блок: организация, мотивация, финансы, маркетинг" },
 ];
 
 const STORAGE_KEY = "gosy-trainer:v1";
@@ -174,7 +175,7 @@ function renderHome(main) {
                     <div class="test-card-row">
                         <div>
                             <div class="test-card-title">Случайный микс</div>
-                            <div class="test-card-themes">50 случайных вопросов из всех 346</div>
+                            <div class="test-card-themes">50 случайных вопросов из всех 395</div>
                         </div>
                         <div class="test-card-meta">50</div>
                     </div>
